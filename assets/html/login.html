@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotel Royal Palace</title>
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+</head>
+<body>
+	<div id="wrapper">
+		<div id="login">
+			<form  method="POST"> 
+				<h1>Log in</h1> 
+				<p> 
+					<label for="username" class="uname"> Your email</label>
+					<input id="username" name="username" required="required" type="text" placeholder="Enter email"/>
+				</p>
+				<p> 
+					<label for="password" class="youpasswd"> Your password </label>
+					<input id="password" name="password" required="required" type="password" placeholder="Enter password"/> 
+				</p>
+				<p> 
+					<label for="type_hotel"> Hotel User</label>
+					<input id="type_hotel" name="type" required="required" type="radio" value="hotel" /> 
+					<label for="type_customer" > Customer User</label>
+					<input id="type_customer" name="type" required="required" type="radio" value="customer" />
+				</p>
+				<p class="login button"> 
+					<input type="submit" value="Login" formaction="card.html"/> 
+				</p>
+			</form>
+		</div>	
+		<div id="register">
+			<form  method="POST"> 
+				<h1> Sign up </h1> 
+				<p> 
+					<label for="firstname" class="uname" >First Name</label>
+					<input id="firstname" name="firstname" required="required" type="text" placeholder="Enter First Name" />
+				</p>
+				<p> 
+					<label for="lastname" class="uname">Last Name</label>
+					<input id="lastname" name="lastname" required="required" type="text" placeholder="Enter Last Name" />
+				</p>
+				<p> 
+					<label for="emailsignup" class="youmail" > Your email</label>
+					<input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="Enter email"/> 
+				</p>
+				<p> 
+					<label for="passwordsignup" class="youpasswd" >Your password </label>
+					<input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="Enter Password"/>
+				</p>
+				<p> 
+					<label for="passwordsignup_confirm" class="youpasswd" >Please confirm your password </label>
+					<input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="Re-enter password"/>
+				</p>
+				<p> 
+					<label for="hotel">Hotel</label>
+					<input id="hotel" name="usertype" required="required" type="radio" value="hotel" />
+					<label for="customer">Customer</label>
+					<input id="customer" name="usertype" required="required" type="radio" value="customer" />
+				</p>
+				<p class="signin button"> 
+					<input type="submit" value="Sign up" formaction="card.html"/> 
+				</p>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotal Royal Palace</title>
+	<link rel="stylesheet" type="text/css" href="../css/card.css">
+</head>
+<body>
+	<div id="myBtnContainer">
+		<button class="btn" onclick="filterSelection('all')"> Show all</button><br><br>
+		States Available
+		<button class="btn" onclick="filterSelection('rajasthan')">Rajasthan</button>
+		<button class="btn" onclick="filterSelection('maharastra')">Maharastra</button>
+		<button class="btn" onclick="filterSelection('gujrat')">Gujrat</button>
+		<button class="btn" onclick="filterSelection('punjab')">Punjab</button><br><br>
+		Dates Available
+		<button class="btn" onclick="filterSelection('jan')">Jan 2020</button>
+		<button class="btn" onclick="filterSelection('feb')">Feb 2020</button>
+		<button class="btn" onclick="filterSelection('mar')">March 2020</button>
+		<button class="btn" onclick="filterSelection('apr')">April 2020</button>
+	</div>
+
+<!-- some have multiple class names this can be used if they belong to multiple categories -->
+	<div class="container">
+		<div class="filterDiv rajasthan jan feb mar card">
+			<img src="../img/1.jpg" alt="Avatar" style="width:100%">
+		  	<div class="container">
+		  		<h4><b>Moody Moon</b></h4>
+		    	<p>Kota, Rajasthan</p>
+		  	</div>
+		</div>
+		<div class="filterDiv rajasthan jan mar apr card">
+			<img src="../img/2.jpg" alt="Avatar" style="width:100%">
+		  	<div class="container">
+		  		<h4><b>Mandarin Oriental</b></h4>
+		    	<p>Kota, Rajasthan</p>
+		  	</div>
+		</div>
+		<div class="filterDiv rajasthan mar apr card">
+			<img src="../img/3.jpg" alt="Avatar" style="width:100%">
+		  	<div class="container">
+		  		<h4><b>Moody Moon</b></h4>
+		    	<p>Jaipur, Rajasthan</p>
+		  	</div>
+		</div>
+		<div class="filterDiv rajasthan apr card">
+			<img src="../img/4.jpg" alt="Avatar" style="width:100%">
+		  	<div class="container">
+		  		<h4><b>Mandarin Oriental</b></h4>
+		    	<p>Jaipur, Rajasthan</p>
+		  	</div>
+		</div>
+		<div class="filterDiv rajasthan mar apr card">
+			<img src="../img/5.jpg" alt="Avatar" style="width:100%">
+		  	<div class="container">
+		  		<h4><b>Hotel Inn</b></h4>
+		    	<p>Udaipur, Rajasthan</p>
+		  	</div>
+		</div>
+		<div class="filterDiv rajasthan jan apr card">
+			<img src="../img/6.jpg" alt="Avatar" style="width:100%">
+		  	<div class="container">
+		  		<h4><b>Moody Moon</b></h4>
+		    	<p>Udaipur, Rajasthan</p>
+		  	</div>
+		</div>
+		<div class="filterDiv rajasthan jan feb mar apr card">
+			<img src="../img/1.jpg" alt="Avatar" style="width:100%">
+		  	<div class="container">
+		  		<h4><b>Moody Moon</b></h4>
+		    	<p>Ajmer, Rajasthan</p>
+		  	</div>
+		</div>
+		<div class="filterDiv maharastra jan card">
+			<img src="../img/2.jpg" alt="Avatar" style="width:100%">
+		  	<div class="container">
+		  		<h4><b>Hotel Inn</b></h4>
+		    	<p>Mumbai, Maharastra</p>
+		  	</div>
+		</div>
+		<div class="filterDiv maharastra feb card">
+			<img src="../img/3.jpg" alt="Avatar" style="width:100%">
+		  	<div class="container">
+		  		<h4><b>Moody Moon</b></h4>
+		    	<p>Mumbai, Maharastra</p>
+		  	</div>
+		</div>
+		<div class="filterDiv maharastra apr card">
+			<img src="../img/4.jpg" alt="Avatar" style="width:100%">
+		  	<div class="container">
+		  		<h4><b>Oriental</b></h4>
+		    	<p>Mumbai, Maharastra</p>
+		  	</div>
+		</div>
+		<div class="filterDiv maharastra apr card">
+			<img src="../img/1.jpg" alt="Avatar" style="width:100%">
+		  	<div class="container">
+		  		<h4><b>Moody Moon</b></h4>
+		    	<p>Pune, Maharastra</p>
+		  	</div>
+		</div>
+		<div class="filterDiv maharastra jan feb mar apr card">
+			<img src="../img/5.jpg" alt="Avatar" style="width:100%">
+		  	<div class="container">
+		  		<h4><b>Mandarin Oriental</b></h4>
+		    	<p>Pune, Maharastra</p>
+		  	</div>
+		</div>		
+		<div class="filterDiv maharastra feb mar card">
+			<img src="../img/6.jpg" alt="Avatar" style="width:100%">
+		  	<div class="container">
+		  		<h4><b>Moody Moon</b></h4>
+		    	<p>Nasik, Maharastra</p>
+		  	</div>
+		</div>
+		<div class="filterDiv gujrat mar card">
+			<img src="../img/1.jpg" alt="Avatar" style="width:100%">
+		  	<div class="container">
+		  		<h4><b>Moody Moon</b></h4>
+		    	<p>Surat, Gujrat</p>
+		  	</div>
+		</div>
+		<div class="filterDiv gujrat feb apr card">
+			<img src="../img/2.jpg" alt="Avatar" style="width:100%">
+		  	<div class="container">
+		  		<h4><b>Moody Moon</b></h4>
+		    	<p>Rajkot, Gujrat</p>
+		  	</div>
+		</div>
+		<div class="filterDiv gujrat feb mar card">
+			<img src="../img/3.jpg" alt="Avatar" style="width:100%">
+		  	<div class="container">
+		  		<h4><b>Hotel Inn</b></h4>
+		    	<p>Surat, Gujrat</p>
+		  	</div>
+		</div>
+		<div class="filterDiv punjab jan card">
+			<img src="../img/4.jpg" alt="Avatar" style="width:100%">
+		  	<div class="container">
+		  		<h4><b>Moody Moon</b></h4>
+		    	<p>Amritsar, Punjab</p>
+		  	</div>
+		</div>
+		<div class="filterDiv punjab apr jan card">
+			<img src="../img/5.jpg" alt="Avatar" style="width:100%">
+		  	<div class="container">
+		  		<h4><b>Moody Moon</b></h4>
+		    	<p>Patiala, Punjab</p>
+		  	</div>
+		</div>
+		<div class="filterDiv punjab jan card">
+			<img src="../img/6.jpg" alt="Avatar" style="width:100%">
+		  	<div class="container">
+		  		<h4><b>Hotel Inn</b></h4>
+		    	<p>Patiala, Punjab</p>
+		  	</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+</html>
